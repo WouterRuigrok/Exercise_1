@@ -1,6 +1,6 @@
 ---
 description: 'Improve Playwright documentation'
-mode: agent
+agent: agent
 tools: []
 ---
 You are improving a Playwright documentation page. Provide clear, actionable refinements while preserving all functional formatting.

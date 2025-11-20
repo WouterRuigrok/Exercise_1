@@ -1,8 +1,8 @@
 ---
-mode: test-explorer
+agent: agent
 description: 'Systematic website exploration using Playwright MCP for test planning'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
-model: 'Claude Sonnet 4'
+tools: ['edit/editFiles', 'search', 'runCommands', 'runTasks', 'microsoft/playwright-mcp/*', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch']
+model: 'GPT-4.1'
 ---
 
 # Website Exploration for Test Planning

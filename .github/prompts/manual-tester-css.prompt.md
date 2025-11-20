@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 description: 'Manual testing with Playwright MCP Server'
 ---
 

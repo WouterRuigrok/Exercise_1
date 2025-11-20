@@ -1,6 +1,6 @@
 ---
 description: manual testing with Playwright MCP Server
-mode: agent
+agent: agent
 tools: ['editFiles', 'runCommands', 'playwright']
 ---
 # Manual Testing Instructions

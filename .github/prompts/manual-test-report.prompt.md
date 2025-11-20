@@ -1,8 +1,8 @@
 ---
-mode: agent
+agent: agent
 description: 'Manually test a site and create a report'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
-model: 'Claude Sonnet 4'
+tools: ['edit/editFiles', 'search', 'runCommands', 'runTasks', 'microsoft/playwright-mcp/*', 'problems', 'changes', 'testFailure', 'fetch']
+model: 'Claude Haiku 4.5'
 ---
 
 # Manual Testing Instructions

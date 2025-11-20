@@ -1,5 +1,5 @@
 ---
-mode: test-generator
+agent: agent
 description: This prompt is used to generate a Playwright test from a manual test plan.
 tools: ['edit', 'search', 'runCommands', 'runTasks', 'problems', 'changes', 'testFailure', 'todos', 'playwright']
 ---

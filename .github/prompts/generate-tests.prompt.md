@@ -1,8 +1,8 @@
 ---
-mode: test-generator
+agent: agent
 description: 'Generate Playwright tests based on user scenarios using systematic exploration'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
-model: 'Claude Sonnet 4'
+tools: ['edit/editFiles', 'search', 'runCommands', 'runTasks', 'microsoft/playwright-mcp/*', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch']
+model: 'Claude Haiku 4.5'
 ---
 
 # Test Generation with Playwright MCP
